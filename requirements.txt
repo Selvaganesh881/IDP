@@ -1,0 +1,11 @@
+fastapi[standard]
+uvicorn[standard]
+sqlalchemy
+
+# To Read Configuration files
+python-dotenv
+pyyaml
+pydantic-settings
+
+# db
+aiosqlite
