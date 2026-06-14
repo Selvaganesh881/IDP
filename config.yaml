@@ -1,4 +1,6 @@
-model_name: "roberta-base"
-model_path: "./store_api/roberta-pii"
-model_threshold: 0.5
-pdf_ocr_fallback_threshold: 50
+model_name: "xlm-roberta-large-finetuned-conll03-english"
+model_path: "FacebookAI/xlm-roberta-large-finetuned-conll03-english"
+model_threshold: 0.4
+pdf_ocr_fallback_threshold: 500
+max_chunk_size: 400
+output_format: "markdown"

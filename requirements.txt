@@ -1,18 +1,50 @@
-fastapi[standard]
-uvicorn[standard]
-sqlalchemy
+# ==========================================
+# Frontend & Data Visualization
+# ==========================================
+streamlit
+pandas
 
-# To Read Configuration files
+# Critical Hackathon Container Fixes (Avoids dependency conflicts on the AMD pod)
+# starlette<0.49.0
+# protobuf<7.0.0
+# numpy<2.3
+
+# ==========================================
+# Core Configuration & Data Validation
+# ==========================================
 python-dotenv
 pyyaml
+pydantic
 pydantic-settings
 
-# db
+# ==========================================
+# Database Persistence
+# ==========================================
 aiosqlite
 
-# For PDF Ingestion
-
+# ==========================================
+# PDF Ingestion Layer
+# ==========================================
 docling
-pytesseract
 pymupdf4llm
 pymupdf
+pytesseract
+
+# ==========================================
+# PII Recognition & Anonymization
+# ==========================================
+transformers
+torch
+presidio-analyzer
+faker
+spacy
+
+# ==========================================
+# Orchestration & LLM Extraction (vLLM)
+# ==========================================
+langchain-core
+langchain-openai
+langgraph
+
+pandas
+numpy
