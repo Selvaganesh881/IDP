@@ -1,0 +1,48 @@
+# ==========================================
+# Frontend & Data Visualization
+# ==========================================
+streamlit
+pandas
+# ==========================================
+# Core Configuration & Data Validation
+# ==========================================
+python-dotenv
+pyyaml
+pydantic
+pydantic-settings
+
+# ==========================================
+# Database Persistence
+# ==========================================
+aiosqlite
+
+# ==========================================
+# PDF Ingestion Layer
+# ==========================================
+docling
+pymupdf4llm
+pymupdf
+pytesseract
+
+# ==========================================
+# PII Recognition & Anonymization
+# ==========================================
+transformers
+torch
+presidio-analyzer
+faker
+spacy
+
+# ==========================================
+# Orchestration & LLM Extraction (vLLM)
+# ==========================================
+langchain-core
+langchain-openai
+langgraph
+
+pandas
+numpy
+
+fastapi
+uvicorn
+python-multipart

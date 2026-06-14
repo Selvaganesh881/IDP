@@ -1,0 +1,63 @@
+# =========================
+# General Git & OS Files
+# =========================
+.git
+.gitignore
+.DS_Store
+Thumbs.db
+
+# =========================
+# Node.js & React Frontend
+# =========================
+node_modules
+npm-debug.log
+yarn-error.log
+frontend/dist
+frontend/build
+.lovable
+
+# =========================
+# Python & FastAPI Backend
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.env/
+.venv/
+env.bak/
+venv.bak/
+
+# =========================
+# Project Specific (Crucial!)
+# =========================
+# Do not copy local uploaded PDFs into the container
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Do not copy the local SQLite database into the image
+backend/data/*
+!backend/data/.gitkeep
+
+# Ignore local environment variables (Docker Compose handles this)
+.env
